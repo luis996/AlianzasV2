@@ -7,8 +7,8 @@ echo Si no inicia es porque necesitas instalar node.js buscalo en google
 echo desmarca "install the necessary tools" al instalar
 pause>nul
 echo iniciando...
-npm install
+cmd /c npm install
 echo Herramientas necesarias instaladas, por favor presione de nuevo
 pause>nul
 echo iniciando...
-node main.js
+start node_modules/electron/dist/electron.exe .
